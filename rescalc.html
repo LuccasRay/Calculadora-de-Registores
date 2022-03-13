@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Calculadora de Registores </title>
+
+	<style type="text/css">
+		body{
+			background-color: #D8BFD8; 
+		}
+	</style>
+
+</head>
+<body>
+
+ ​  <div for="titulo">
+    </div>
+    <label id="titulo"><b></b><font size="5"><center> Calculadora de Registores </center></font></b></label>
+
+    <form>
+    <p>
+    <fieldset>
+    
+    <p>
+    
+	<label for="f1"><b> 1º Faixa </b></label>
+
+    <p>
+    <select id="f1">
+		    <option value="0"> Preto </option>
+		    <option value="1"> Marron </option>
+		    <option value="2"> Vermelho </option>
+		    <option value="3"> Laranja </option>
+		    <option value="4"> Amarelo </option>
+		    <option value="5"> Verde </option>
+		    <option value="6"> Azul </option>
+		    <option value="7"> Violeta </option>
+		    <option value="8"> Cinza </option>
+		    <option value="9"> Branco </option>
+	  </select>
+	  </p>
+
+    <label for="f2"><b> 2º Faixa </b></label>
+
+	<p>
+    <select id="f2">
+		    <option value="0"> Preto </option>
+		    <option value="1"> Marron </option>
+		    <option value="2"> Vermelho </option>
+		    <option value="3"> Laranja </option>
+		    <option value="4"> Amarelo </option>
+		    <option value="5"> Verde </option>
+		    <option value="6"> Azul </option>
+		    <option value="7"> Violeta </option>
+		    <option value="8"> Cinza </option>
+		    <option value="9"> Branco </option>
+	</select>
+	</p>
+
+    <label for="f3"><b> Multiplicador </b></label>
+    
+     <p>
+    <select id="f3">
+		    <option value="1"> Preto </option>
+		    <option value="10"> Marron </option>
+		    <option value="100"> Vermelho </option>
+		    <option value="1000"> Laranja </option>
+		    <option value="10000"> Amarelo </option>
+		    <option value="100000"> Verde </option>
+		    <option value="1000000"> Azul </option>
+		    <option value="10000000"> Violeta </option>
+		    <option value="0.1"> Dourado </option>
+		    <option value="0.01"> Prata </option>
+	</select>
+	</p>
+
+    <label for="f4"><b> Tolerância </b></label>
+
+    <p>
+    <select id="f4">
+		    <option value="0.01"> Marron </option>
+		    <option value="0.02"> Vermelho </option>
+		    <option value="0.005"> Verde </option>
+		    <option value="0.0025"> Azul </option>
+		    <option value="0.001"> Violeta </option>
+		    <option value="0.0005"> Cinza </option>
+		    <option value="0.05"> Dourado </option>
+		    <option value="0.1"> Prateado </option>
+	</select>
+	</p>
+
+	</fieldset>
+    <p>
+    
+    <fieldset>
+    <label for="result"><b> Resultado </b></label>
+    <div id="result"></div>
+    </fieldset>
+
+    <p>
+
+    <p><button type="button" onclick="pegarDados()"><b> Calcular </b></button></p>
+
+    <script src="validcal.js"></script>
+
+    </form>
+    
+    <center><img src="img/tabela4.jpg"></center>
+
+</body>
+</html>
